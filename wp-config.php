@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'gup-sys' );
+define( 'DB_NAME', 'morien_gup_sys' );
 
 /** MySQL database username */
-define( 'DB_USER', 'gup-sys' );
+define( 'DB_USER', 'morien_gup_sys' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', '123456789' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'morien-gup-sys-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
