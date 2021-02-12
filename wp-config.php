@@ -20,29 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'gup_sys1' );
+define( 'DB_NAME', 'gup_sys' );
 
 /** MySQL database username */
-define( 'DB_USER', 'gup_sys1' );
+define( 'DB_USER', 'gup_sys' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', '123456789' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'gup-sys1-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
-
-// /** The name of the database for WordPress */
-// define( 'DB_NAME', 'gup-sys' );
-
-// /** MySQL database username */
-// define( 'DB_USER', 'gup-sys' );
-
-// /** MySQL database password */
-// define( 'DB_PASSWORD', '123456789' );
-
-// /** MySQL hostname */
-// define( 'DB_HOST', 'localhost' );
-
+define( 'DB_HOST', 'gup-sys-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -69,11 +56,7 @@ define( 'LOGGED_IN_SALT',   'OUpp*`>NfOS1ob~9$tuzh3eR!,8&Kn!iD0myQ,X1m_i51$Zak`%
 define( 'NONCE_SALT',       '$#oR~i*S$jb>w~,CieQ!bXWn<hCJ./Uk^[*{~awU~@gr<Q5}q+rQmJBa!vT%i/O`' );
 
 /**#@-*/
-define( 'AS3CF_SETTINGS', serialize( array(
-    'provider' => 'aws',
-    'access-key-id' => 'AKIAWDVMRLYHT3LEEAPX',
-    'secret-access-key' => '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',
-) ) );
+
 /**
  * WordPress Database Table prefix.
  *
