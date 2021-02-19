@@ -176,7 +176,9 @@ if(have_posts()):
 				<section id="<?php echo esc_attr($menu_id);?>" class="section section-skills">
 					<div class="animate-up">
 						<?php if($title):?>
-							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+							<h2 class="section-title">
+							<span class="common-wrap--tit__en"><?php echo esc_html($title);?></span>
+								<span class="common-wrap">言語.環境</span></h2>
 						<?php endif;?>
 						<?php if($skills):?>
 							<div class="<?php echo esc_attr($bg_class);?>">
@@ -267,7 +269,9 @@ if(have_posts()):
 				<section id="<?php echo esc_attr($menu_id);?>" class="section section-experience">
 					<div class="animate-up">
 						<?php if($title):?>
-							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+							<h2 class="section-title">
+							<span class="common-wrap--tit__en"><?php echo esc_html($title);?></span>
+								<span class="common-wrap">サービス</span></h2>
 						<?php endif;?>
 							<?php if($experiences):?>
 								<div class="timeline">
@@ -347,6 +351,7 @@ if(have_posts()):
 					<div class="animate-up">
 						<?php if($title):?>
 							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+						
 						<?php endif;?>
 							<?php if($education_fields):?>
 							<div class="timeline">
@@ -439,6 +444,7 @@ if(have_posts()):
 					<div class="animate-up">
 						<?php if($title):?>
 							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+						
 						<?php endif;?>						
 							<?php if($references):?>
 								<div class="<?php echo esc_attr($bg_class);?>">
@@ -536,6 +542,7 @@ if(have_posts()):
 					<div class="animate-up">
 						<?php if($title):?>
 							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+						
 						<?php endif;?>
 						<div class="<?php echo esc_attr($bg_class);?>">
 							<div class="calendar-busy"<?php echo esc_attr($week_start_data);?>>
@@ -601,6 +608,7 @@ if(have_posts()):
 					<div class="animate-up">
 						<?php if($title):?>
 							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+					
 						<?php endif;?>
 							<?php $args = array(
 								'posts_per_page'   => $posts_count,
@@ -789,7 +797,9 @@ if(have_posts()):
 				<section id="<?php echo esc_attr($menu_id);?>" class="section section-portfolio">
 					<div class="animate-up">
 						<?php if($title):?>
-							<h2 class="section-title"><?php echo esc_html($title);?></h2>
+							<h2 class="section-title">
+							<span class="common-wrap--tit__en"><?php echo esc_html($title);?></span>
+							<span class="common-wrap">実績</span></h2>
 						<?php endif;?>
 						<div class="<?php echo esc_attr($bg_class);?>">
 							<?php if($all_cat && $display_type == 'grid'):?>
