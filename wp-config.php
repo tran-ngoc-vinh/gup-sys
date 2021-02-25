@@ -31,16 +31,16 @@
 // /** MySQL hostname */
 // define( 'DB_HOST', 'localhost' );
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'test2021' );
+define( 'DB_NAME', 'gup_sys_morien' );
 
 /** MySQL database username */
-define( 'DB_USER', 'test2021' );
+define( 'DB_USER', 'gup_sys_morien' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', '123456789' );
 
 // /** MySQL hostname */
-define( 'DB_HOST', 'test2021-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'gup-sys-morien-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
