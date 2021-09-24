@@ -30,7 +30,7 @@ define( 'DB_USER', 'gup_sys_com' );
 define( 'DB_PASSWORD', '123456789' );
 
 // /** MySQL hostname */
-define( 'DB_HOST', 'gup-sys-web-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'web-gup-sys-web.c8bwsaqlxbq6.ap-northeast-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
